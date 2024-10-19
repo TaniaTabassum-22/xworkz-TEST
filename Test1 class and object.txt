@@ -1,0 +1,170 @@
+//Create a class and declare 5 class level variables and 4 methods and create 4 objects
+
+public class Lamp{
+ string brand;
+ string type;
+ int watts;
+ string color;
+ boolean isSmartLamp;
+ 
+ public static void turnon(){
+ }
+ 
+ public static void turnoff(){
+ }
+ 
+ public static void dimLight(){
+ }
+ 
+ public static void changeColor(){
+ }
+ 
+}
+ 
+ 
+ public class LampDetails{
+  public static void main(String[] args){
+  
+  lamp lamp1 = new lamp();
+  lamp1.brand = "Philips";
+  lamp1.type = "Bed lamp";
+  lamp1.watts = 10;
+  lamp1.color = "white";
+  lamp1.isSmartLamp = "True";
+  
+  lamp lamp2 = new lamp();
+  lamp2.brand = "Syska";
+  lamp2.type = "Study lamp";
+  lamp2.watts = 9;
+  lamp2.color = "Orange";
+  lamp2.isSmartLamp = "False";
+  
+  lamp lamp3 = new lamp();
+  lamp3.brand = "Ikea";
+  lamp3.type = "Ceiling lamp";
+  lamp3.watts = 15;
+  lamp3.color = "Blue";
+  lamp3.isSmartLamp = "True";
+  
+  lamp lamp4 = new lamp();
+  lamp4.brand = "Chroma";
+  lamp4.type = "Floor lamp";
+  lamp4.watts = 18;
+  lamp4.color = "Pink";
+  lamp4.isSmartLamp = "False";
+  
+  
+  System.out.println("Brand: " +lamp1.brand);
+  System.out.println("Typ: " +lamp1.type);
+  System.out.println("Watts: " +lamp1.watts+"W");
+  System.out.println("Color: " +lamp1.color);
+  system.out.println("Smart Lamp: " +lamp1.isSmartLamp);
+  
+  system.out.println("---------------------------------");
+  
+  System.out.println("Brand: " +lamp2.brand);
+  System.out.println("Typ: " +lamp2.type);
+  System.out.println("Watts: " +lamp2.watts + "W");
+  System.out.println("Color: " +lamp2.color);
+  system.out.println("Smart Lamp: " +lamp2.isSmartLamp);
+  
+  system.out.println("---------------------------------");
+  
+  System.out.println("Brand: " +lamp3.brand);
+  System.out.println("Typ: " +lamp3.type);
+  System.out.println("Watts: " +lamp3.watts + "W");
+  System.out.println("Color: " +lamp3.color);
+  system.out.println("Smart Lamp: " +lamp3.isSmartLamp);
+  
+  system.out.println("---------------------------------");
+  
+  System.out.println("Brand: " +lamp4.brand);
+  System.out.println("Typ: " +lamp4.type);
+  System.out.println("Watts: " +lamp4.watts + "W");
+  System.out.println("Color: " +lamp4.color);
+  system.out.println("Smart Lamp: " +lamp4.isSmartLamp);
+  
+ }
+  
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

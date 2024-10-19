@@ -1,0 +1,90 @@
+// deaclare a constructor with and without parameter
+
+public class Lamps{
+ string brand;
+ string type;
+ int watts;
+ string color;
+ boolean isSmartLamp;
+ 
+ public Lamps(){
+ system.out.println("No Parameterized constructor");}
+ 
+ public Lamps(string brand, string type, int watts, string color, boolean isSmartLamp){
+ this.brand = brand;
+ this.type = type;
+ this.watts = watts;
+ this.color = color;
+ this.isSmartLamp = isSmartLamp;
+ 
+ 
+ system.out.println("Brand: " +brand);
+ system.out.println("Type: " + type);
+ system.out.println("watts: " + watts + "W");
+ system.out.println("color: " +color);
+ system.out.println("Smart lamp: " +isSmartLamp);
+ 
+ }
+ 
+ }
+ 
+ 
+ puclic class LampsInfo{
+ 
+ public static void main (string[] args){
+ 
+ lamps lamp1 = new lamp();
+ lamp1.brand = "Philips";
+ lamp1.type = "Bed lamp";
+ lamp1.watts = 10;
+ lamp1.color = "white";
+ lamp1.isSmartLamp = "True";
+  
+ lamps lamp2 = new lamp();
+ lamp2.brand = "Syska";
+ lamp2.type = "Study lamp";
+ lamp2.watts = 9;
+ lamp2.color = "Orange";
+ lamp2.isSmartLamp = "False";
+ 
+ 
+ lamps.lamp3("Ikea", "Ceiling lamp", 15, "Blue", "True");
+ lamps.lamp4("Chroma", "Floor lamp", 18, "Pink", "False");
+ 
+ System.out.println("Brand: " +lamp1.brand);
+ System.out.println("Typ: " +lamp1.type);
+ System.out.println("Watts: " +lamp1.watts+"W");
+ System.out.println("Color: " +lamp1.color);
+ system.out.println("Smart Lamp: " +lamp1.isSmartLamp);
+  
+ system.out.println("---------------------------------");
+  
+ System.out.println("Brand: " +lamp2.brand);
+ System.out.println("Typ: " +lamp2.type);
+ System.out.println("Watts: " +lamp2.watts + "W");
+ System.out.println("Color: " +lamp2.color);
+ system.out.println("Smart Lamp: " +lamp2.isSmartLamp);
+  
+ system.out.println("---------------------------------");
+ 
+ lamps.lamp3();
+ lamps.lamp4();
+ 
+ 
+ 
+ }
+ 
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+

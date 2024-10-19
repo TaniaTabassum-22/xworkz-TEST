@@ -1,0 +1,22 @@
+// declare one method with parameter another without parameter
+
+public class Methods{
+
+addBook("Wings of Fire");
+addBook("The Book Theif", 2000);
+addBook("It Ends With Us", "Collen Hoover");
+
+public static void addBook(string title){
+system.out.println("Book title: " + title);}
+
+public static void addBook(string title, publishing_year year){
+system.out.println("Book title: " + title + "published in: " + year+);}
+
+public static void addBook(string title, string author){
+system.out.println("Book title: " + title + "by" +author +);}
+
+}
+
+
+
+
