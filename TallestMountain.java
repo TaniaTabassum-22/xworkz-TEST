@@ -3,7 +3,7 @@
 public class TallestMountain {
 
     public static void main(String[] args) {
-        int[] heights = {1200, 850, 950, 1100, 1250}; 
+        int[] heights = {1200, 750, 550, 1100, 1350}; 
 
         int tallest = heights[0];
         for (int i = 1; i < heights.length; i++) {

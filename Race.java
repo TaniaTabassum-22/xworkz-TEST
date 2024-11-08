@@ -4,7 +4,7 @@
 public class Race {
 
     public static void main(String[] args) {
-        int[] times = {50, 45, 55}; 
+        int[] times = {57, 88, 59}; 
 
         String[] names = {"Alice", "Bob", "Charlie"};
 

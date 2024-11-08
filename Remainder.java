@@ -4,8 +4,8 @@ public class Remainder {
 
     public static void main(String[] args) {
         
-        int[] A = {17, 25, 100}; 
-        int[] B = {5, 7, 3};     
+        int[] A = {18, 35, 150}; 
+        int[] B = {4, 9, 3};     
 
         if (A.length == B.length) {
             

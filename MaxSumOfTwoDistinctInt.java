@@ -4,7 +4,7 @@
 public class MaxSumOfTwoDistinctInt {
 
     public static void main(String[] args) {
-        int[] A = {3, 5, 7, 2, 8, 8, 10}; 
+        int[] A = {5, 3, 7, 2, 7, 8, 10}; 
 
         int max1 = A[0];
         int max2 = A[1];

@@ -5,8 +5,8 @@
 public class ChefCandyStore {
 
     public static void main(String[] args) {
-        int[] goal = {20, 30, 25}; 
-        int[] sold = {25, 35, 20}; 
+        int[] goal = {30, 40, 25}; 
+        int[] sold = {65, 45, 30}; 
         
         int totalMoney = 0;
 

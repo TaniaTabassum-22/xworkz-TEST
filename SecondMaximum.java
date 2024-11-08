@@ -3,7 +3,7 @@
 public class SecondMaximum {
 
     public static void main(String[] args) {
-        int[] numbers = {5, 8, 3}; 
+        int[] numbers = {9, 8, 3}; 
 
         for (int i = 0; i < numbers.length; i++) {
             for (int j = i + 1; j < numbers.length; j++) {

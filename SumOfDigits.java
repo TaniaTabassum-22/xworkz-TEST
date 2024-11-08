@@ -3,7 +3,7 @@
 public class SumOfDigits {
 
     public static void main(String[] args) {
-        int N = 12345; 
+        int N = 221812; 
 
         String numberStr = Integer.toString(N);
 
