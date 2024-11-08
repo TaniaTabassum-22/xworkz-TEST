@@ -6,7 +6,7 @@
 public class Array {
 
     public static void main(String[] args) {
-        int[] numArr = {2, 3, 4, 5, 6};
+        int[] numArr = {2, 8, 4, 5, 7};
         int x = 4;
         int i;
 
